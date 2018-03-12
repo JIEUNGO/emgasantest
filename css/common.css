@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* reset */
+html, body, h1, h2, h3, h4, h5, h6, p, div, th, td, table, pre, code, form, fieldset, legend, input, button, address, ol, ul, li, dl, dt, dd, img, textarea, blockquote {margin:0;padding:0;}
+html,body{height: 100%;overflow: hidden;}
+body,input,textarea,select,button{color:#222; font: 13px/1.4 Dotum,'돋움',arial, sans-serif;}
+h1,h2,h3,h4,h5,h6,strong{font-size: 100%;font-weight: normal;}
+li{list-style: none;}
+img, fieldset {vertical-align:top;border:none;}
+legend,hr{position: absolute;left: -9999px;}
+caption{text-indent: -9999px;height: 0;overflow: hidden;visibility: hidden;}
+img,button,input[type="submit"],input[type="button"],input[type="reset"]{border: none;vertical-align: middle;}
+a:link, a:visited, a:active, a:hover, a:focus {text-decoration:none;color: #222;}
+input,select,button{vertical-align: middle;}
+input[type="text"],input[type="email"],input[type="url"],input[type="search"],input[type="password"],select,textarea{border: 1px solid #ddd;padding: 2px;}
+address,em,i{font-style:normal;}
+button,input[type="button"],input[type="submit"],input[type="reset"]{cursor: pointer;}
+table{width: 100%;border-collapse: collapse;border-spacing: 0;}
+textarea{resize: none;vertical-align: middle;padding: 2px;}
+.clearFix:after{content:"";clear: both;display: block;}
+.clearFix{*zoom:1;}
+
+#wrap{position: relative;width: 1240px;height: 680px;padding: 20px;border: 1px solid #ddd;}
+h1{position: absolute;right: 10px;top: 30px;}
+.account-store-wrap{margin-bottom: 10px;padding-left: 23px;background: url("../img/common/bullet-arrow-1.png") 0 center no-repeat;}
+.account-store-wrap label{display: inline-block;font-weight: bold;vertical-align: middle;font-size: 12px;}
+.account-store-wrap .num_short{width: 160px;}
+.resend_inquire{margin-bottom: 10px;font-weight: bold;}
+.exchange-area,.processing-area{position: relative;border-top: 5px solid #1d293a;padding:15px 5px;}
+.exchange-area{padding-bottom: 40px;}
+.exchange-area h2,.processing-area h2{margin-bottom: 18px;padding-left: 26px;font-weight: bold;font-size: 18px;font-family: Malgun Gothic,'맑은고딕';background: url("../img/common/bullet-exclammark-1.png") 0 3px no-repeat;}
+.table-search{margin-bottom: 30px;padding: 5px;border: 1px solid #aaa;}
+.table-search tr{border-bottom: 1px solid #aaa;}
+.table-search th{border-right: 1px solid #aaa;border-left: 1px solid #aaa;background-color: #ebebeb;}
+.table-search td{padding: 4px 8px;}
+.table-search td .num_short{width: 160px;}
+.table-search td .num_short.two{margin-left: 5px;}
+.table-search td .num_long{width: 300px;}
+/* .table-search td .num_long:disabled{background-color: #ebebeb;} */
+.table-wrap{position: relative;padding-right: 100px;border: 1px solid #aaa;box-sizing: border-box;}
+.table-scroll{overflow: scroll;height: 120px;border-right: 1px solid #aaa;}
+.table-scroll.processing{height: 170px}
+.table-scroll.processing .table-result{min-width:1230px;}
+.table-result td{border: 1px solid #aaa;}
+.table-result th{height: 26px;border: 1px solid #aaa;background-color: #d7e8e7;}
+.table-result td{height: 26px;}
+
+/* 지급명세서 */
+.table-scroll-y{overflow-y: scroll;height: 410px;}
+.statement{position: relative;padding: 30px 0 5px;}
+.statement 
+.total-money{position: absolute;top:5px;right: 25px;font-weight: bold;}
+
+/* btn */
+.btns{position: absolute;top: 15px;right: 5px;}
+.btns a,input[type="reset"],input[type="submit"],input[type="button"]{display: inline-block;padding: 5px 15px;vertical-align: top;border-radius: 3px;background-color: #929393;color:#fff;text-align: center;font-weight: bold;}
+.btns a:hover,input[type="reset"]:hover,input[type="submit"]:hover,.btn-download:hover,
+.btns a:focus,input[type="reset"]:focus,input[type="submit"]:focus,.btn-download:focus{background-color: #0069a5;}
+.btn-download span{position: relative;}
+.btn-table-submit{position: absolute;top:50%;margin-top: -14px;right: 10px;}

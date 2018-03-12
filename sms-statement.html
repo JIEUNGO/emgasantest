@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/sms-common.js"></script>
+	<script type="text/javascript"></script>
+	<title>SMS 지급명세서(E)</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+	<div id="wrap">
+		<h1><a href="#"><img src="img/common/logo.gif" alt="로고"></a></h1>
+		<div class="top-area">
+			<p class="account-store-wrap">
+				<label for="account_store">회계단위(지급점포) : </label>
+				<input type="text" name="account_store" id="account_store" class="num_short" placeholder="H01 [E-본사]" />
+			</p>
+			<p class="resend_inquire">재발송/고객인증 문의 : 02-000-0000</p>
+		</div>
+		<div class="processing-area">
+			<h2>지급명세서</h2>
+			<table class="table-search">
+				<caption>지급명세서 조회</caption>
+				<colgroup>
+					<col style="width:15%;">
+					<col>
+					<col style="width:15%;">
+					<col>
+				</colgroup>
+				<tr>
+					<th><label for="payment_store">지급점포</label></th>
+					<td><input type="text" name="payment_store" id="payment_store" class="" />
+						<input type="submit" value="검색" class="payment_search" />
+						<input type="text" name="payment_store2" id="payment_store2" class="" title="지급점포" /></td>
+					<th><label for="payment_day">지급기간</label></th>
+					<td>
+						<input type="text" name="payment_day" id="payment_day" class="" /> ~ <input type="text" name="payment_day2" id="payment_day2" class="" title="지금기간 달력" />
+					</td>
+				</tr>
+				<tr>
+					<th><label for="payment_company">업체</label></th>
+					<td><input type="text" name="payment_company" id="company" class="" /></td>
+					<th><label for="payment_event">행사</label></th>
+					<td>
+						<select name="payment_event" id="payment_event">
+							<option value="전체">전체</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<div class="table-wrap statement">
+				<div class="table-scroll-y">
+					<table class="table-result">
+						<caption>지급처리 결과</caption>
+						<colgroup>
+							<col style="width:5%;">
+							<col style="width:5%;">
+							<col style="width:8%;">
+							<col style="width:8%;">
+							<col style="width:8%;">
+							<col style="width:17%;">
+							<col style="width:17%;">
+							<col style="width:*;">
+							<col style="width:*;">
+							<col style="width:*;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">No</th>
+								<th scope="col">지급처</th>
+								<th scope="col">지급처명</th>
+								<th scope="col">지급일자</th>
+								<th scope="col">업체</th>
+								<th scope="col">상품명</th>
+								<th scope="col">권종명</th>
+								<th scope="col">지급금액</th>
+								<th scope="col">교환여부</th>
+								<th scope="col">쿠폰번호</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<span class="total-money">합계: 00</span>
+			</div>
+			<div class="btns">
+				<input type="submit" value="조회" class="btn-check" />
+				<input type="button" value="엑셀" class="btn-download" />
+			</div>
+		</div>
+	</div>
+</body>
+</html>
